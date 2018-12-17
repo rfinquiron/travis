@@ -1,5 +1,5 @@
 script:
-  - echo "skipping tests"
+  - echo "skipping tests $APP_ENV"
 install: true
 deploy:
   provider: script
